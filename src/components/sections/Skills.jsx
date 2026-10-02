@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import { 
-  Atom, 
-  Palette, 
-  FileCode, 
-  Globe, 
-  Layout, 
-  GitBranch, 
-  Smartphone, 
-  Network, 
-  Server, 
-  Cpu, 
-  Gauge, 
+import {
+  Atom,
+  Palette,
+  FileCode,
+  Globe,
+  Layout,
+  GitBranch,
+  Smartphone,
+  Network,
+  Server,
+  Cpu,
+  Gauge,
   Sparkles,
   Code2
 } from 'lucide-react';
@@ -63,9 +63,9 @@ export const Skills = () => {
     : skills.filter((s) => s.category === selectedCategory);
 
   return (
-    <section id="skills" className="py-20 md:py-28 relative z-10">
+    <section id="skills" className="py-20 md:py-28 relative z-10 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading
+        <SectionHeading className="bg-red-500"
           badge="Technical Skills"
           title="Skills, Tools & Technologies"
           subtitle="A comprehensive toolkit engineered to build fast, scalable, and delightful web interfaces."
@@ -77,11 +77,10 @@ export const Skills = () => {
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-300 ${
-                selectedCategory === cat
-                  ? 'bg-gradient-to-r from-brand-600 to-cyan-500 text-white shadow-lg shadow-brand-500/25 scale-105'
-                  : 'glass-card text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/50 dark:hover:bg-slate-800/50'
-              }`}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-300 ${selectedCategory === cat
+                ? 'bg-gradient-to-r from-brand-600 to-cyan-500 text-white shadow-lg shadow-brand-500/25 scale-105'
+                : 'glass-card text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/50 dark:hover:bg-slate-800/50'
+                }`}
             >
               {cat}
             </button>

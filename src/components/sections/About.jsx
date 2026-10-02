@@ -22,14 +22,14 @@ export const About = () => {
   };
 
   const coreTech = [
-    { name: 'React.js', desc: 'Component Architecture & Hooks', color: 'bg-cyan-500/10 text-cyan-400 border-cyan-500/30' },
-    { name: 'Next.js', desc: 'App Router, SSR & Server Components', color: 'bg-purple-500/10 text-purple-400 border-purple-500/30' },
-    { name: 'TypeScript', desc: 'Type-Safe Modular Architecture', color: 'bg-blue-500/10 text-blue-400 border-blue-500/30' },
-    { name: 'Tailwind CSS', desc: 'Modern Utility Styling & Themes', color: 'bg-sky-500/10 text-sky-400 border-sky-500/30' },
-    { name: 'JavaScript (ES6+)', desc: 'Modern Async, APIs & Logic', color: 'bg-amber-500/10 text-amber-400 border-amber-500/30' },
-    { name: 'HTML5 & CSS3', desc: 'Semantic, Accessible, Responsive', color: 'bg-orange-500/10 text-orange-400 border-orange-500/30' },
-    { name: 'Git & GitHub', desc: 'Version Control & Workflows', color: 'bg-rose-500/10 text-rose-400 border-rose-500/30' },
-    { name: 'Responsive UI', desc: 'Mobile-First Perfection', color: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30' },
+    { name: 'React.js', desc: 'Component Architecture & Hooks', color: 'bg-cyan-700/20 text-cyan-600 font-bold border-cyan-600/30' },
+    { name: 'Next.js', desc: 'App Router, SSR & Server Components', color: 'bg-purple-700/20 text-purple-500 border-purple-500/30' },
+    { name: 'TypeScript', desc: 'Type-Safe Modular Architecture', color: 'bg-blue-700/10 text-blue-500 border-blue-500/30' },
+    { name: 'Tailwind CSS', desc: 'Modern Utility Styling & Themes', color: 'bg-sky-700/10 text-sky-600 border-sky-500/30' },
+    { name: 'JavaScript (ES6+)', desc: 'Modern Async, APIs & Logic', color: 'bg-amber-700/10 text-amber-600 border-amber-500/30' },
+    { name: 'HTML5 & CSS3', desc: 'Semantic, Accessible, Responsive', color: 'bg-orange-700/10 text-orange-600 border-orange-500/30' },
+    { name: 'Git & GitHub', desc: 'Version Control & Workflows', color: 'bg-rose-700/10 text-rose-600 border-rose-500/30' },
+    { name: 'Responsive UI', desc: 'Mobile-First Perfection', color: 'bg-emerald-700/10 text-emerald-600 border-emerald-500/30' },
   ];
 
   return (

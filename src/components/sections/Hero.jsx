@@ -1,4 +1,5 @@
 import React from 'react';
+import { TypeAnimation } from 'react-type-animation';
 import { ArrowRight, Send, Sparkles, FolderGit2, Star, CheckCircle2, ShieldCheck, Terminal } from 'lucide-react';
 import { portfolioData } from '../../data/portfolioData';
 import { Button } from '../common/Button';
@@ -31,8 +32,32 @@ export const Hero = ({ onOpenResume }) => {
               </span>
               <span className="text-slate-200">{personal.status}</span>
             </div>
-
             {/* Main Greeting & Name Heading */}
+
+            <TypeAnimation
+              sequence={[
+                'Frontend Developer',
+                2000,
+                '',
+                500,
+                'Learning Backend Development',
+                2000,
+                '',
+                500,
+                'Aspiring Full Stack Developer',
+                2000,
+                '',
+                500,
+              ]}
+              wrapper="span"
+              speed={50}
+              deletionSpeed={60}
+              repeat={Infinity}
+              className="text-xl md:text-2xl font-bold
+  bg-gradient-to-r from-green-400 to-indigo-500 border red-500
+  bg-clip-text text-transparent"
+            />
+
             <div className="space-y-2">
               <span className="text-lg sm:text-xl font-mono text-brand-400 font-semibold flex items-center gap-2">
                 <Terminal className="w-5 h-5" />
@@ -107,12 +132,15 @@ export const Hero = ({ onOpenResume }) => {
             </div>
           </div>
 
+
           {/* Right Column: Interactive Coding Workspace & Terminal Illustration */}
           <div className="lg:col-span-5 flex justify-center lg:justify-end">
+
             <CodeWindow />
           </div>
         </div>
       </div>
+
     </section>
   );
 };

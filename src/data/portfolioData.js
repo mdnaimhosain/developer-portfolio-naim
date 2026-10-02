@@ -66,7 +66,7 @@ export const portfolioData = {
       level: 95,
       experience: "Proficient",
       description: "Hooks, Context API, Component Lifecycle, Custom Hooks, Performance Optimization",
-      color: "#61DAFB",
+      color: "#7561a1ff",
       iconName: "Atom",
       isPrimary: true,
     },
@@ -160,7 +160,7 @@ export const portfolioData = {
       iconName: "Network",
       isPrimary: true,
     },
-    
+
     {
       name: "State Management",
       category: "React Ecosystem",
@@ -341,7 +341,7 @@ export const portfolioData = {
   testimonials: [
     {
       quote: "Naim delivered our React dashboard ahead of schedule with flawless attention to detail. His mastery of Tailwind CSS and modern React patterns saved our team dozens of hours.",
-      author: "Sarah Jenkins",
+      author: "moon",
       title: "Product Lead at CloudScale",
       avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop"
     },
